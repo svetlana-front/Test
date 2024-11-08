@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    justify-items: center;
+    background-image: url("../img/fonGLAV.png");
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #421869;
+    overflow: hidden;
+}
+
+.main {
+    z-index: 1;
+    position: absolute;
+    border: 5px solid #509724;
+    border-right: none;
+    top: 5%;
+    border-radius: 90px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 15%;
+    background: #F7F0FD;
+    width: 85%;
+    height: 85%;
+}
+
+.dobavlenie {
+    margin-left: 60%;
+    margin-top:10%;
+    width: 30%;
+    height: 70%;
+}
+
+.violet-button1 {
+    width: 24.2%;
+    height: 76px;
+    font-size: 36px;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 3%;
+    margin-bottom: 70%;
+    left: 78%;
+    color: rgb(66, 24, 105);
+}
+
+.violet-button {
+    width: 24.2%;
+    height: 76px;
+    font-size: 36px;
+    border: 1px solid #6FA44E;
+    background: rgb(185, 209, 169);
+    border-radius: 50px;
+    position: absolute;
+    top: 80%;
+    margin-bottom: 70%;
+    left: 63%;
+    color: rgb(66, 24, 105);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.violet-button2 {
+    width: 48%;
+    height: 76px;
+    font-size: 36px;
+    border: 1px solid #6FA44E;
+    background: rgb(185, 209, 169);
+    border-radius: 50px;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    color: rgb(66, 24, 105);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.dobavlenie input {
+    margin-bottom: 5%;
+    font-family: 'Mulish', sans-serif;
+    border: 1px solid #6FA44E;
+    border-radius: 26px;
+    padding: 22px 50px;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    outline: none;
+    background: rgb(240, 240, 240);
+}
+
+::placeholder {
+    color: rgb(66, 24, 105);
+}
+
+.TableMain {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10%;
+    width: 50%;
+    height: 70%;
+}
+.tables {
+    width: 100%;
+}
+
+.content {
+    frameborder: 0;
+    border: 0;
+    position: absolute;
+    width: 100%;
+    height: 98%;
+}

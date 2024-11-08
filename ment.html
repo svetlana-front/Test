@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/ment.css">
+  <title>Кураторы</title>
+</head>
+<body>
+<div class="main">
+  <div class="TableMain">
+    <div class="tables">
+      <iframe class="content" src="Tab.html.php" name="content"></iframe>
+    </div>
+    <button type="submit" class="violet-button2" id="buttonAdd" ONCLICK='varitext()'>Печать</button>
+    <SCRIPT LANGUAGE=JavaScript>
+      function varitext(text){
+        text=document
+        print(text)
+      }
+    </SCRIPT>
+  </div>
+  <div class="dobavlenie">
+    <form action="registration.php" method="post">
+      <input name="login" type="text" placeholder="Логин" id="product">
+      <input name="password" type="password" placeholder="Пароль" id="name">
+      <button type="submit" class="violet-button" id="order-action">Добавить</button>
+
+    </form>
+  </div>
+  <div class="buttonVihod">
+    <form action="vihod.php" method="post">
+      <button type="submit" class="violet-button1" id="vihod">vihod</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
+
